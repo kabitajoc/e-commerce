@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+.nav-bar {
+  padding: 20px;
+}
+.nav-bar span {
+  font-family: "Lobster";
+  display: block;
+  font-size: 10px;
+}
+.nav-bar .logo {
+  font-family: "Lobster";
+  font-size: 30px;
+  text-decoration: underline;
+}
+.nav-bar,
+.nav-bar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-bar ul {
+  gap: 10px;
+}
+
+.nav-bar ul a:hover,
+.active {
+  cursor: pointer;
+  color: black;
+
+  font-weight: 600;
+}
+
+ul li {
+  list-style: none;
+}
+li a {
+  color: #807d7e;
+  text-decoration: none;
+}
+.nav-icons {
+  display: flex;
+  gap: 8px;
+}
+.search-bar {
+  border: 1px solid rgb(210, 201, 201);
+  background-color: #e1d1d7;
+  padding: 5px;
+}
+.search-bar input {
+  border: none;
+  background-color: #e1d1d7;
+}
