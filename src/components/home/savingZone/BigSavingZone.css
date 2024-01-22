@@ -1,0 +1,90 @@
+h3 {
+  border-left: 6px solid #8a33fd;
+  border-radius: 5px;
+  margin: 2rem 2.5rem;
+  padding-left: 20px;
+}
+.savingCard-text h4 {
+  font-size: 28px;
+
+  font-weight: 600;
+  line-height: 38.431px;
+  letter-spacing: 0.56px;
+}
+/* .savingZone {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-content: center;
+  gap: 50px;
+}
+.savingZoneGrid img {
+} */
+
+.saving-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.saving-card {
+  position: relative;
+}
+.savingCard-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.savingText1 {
+  top: 40px;
+  left: 5px;
+  gap: 20px;
+  color: white;
+}
+.savingText2 {
+  color: white;
+}
+.savingText2,
+.savingText3 {
+  top: 40px;
+  right: 30px;
+  gap: 20px;
+}
+.savingText4,
+.savingText5 {
+  top: 4rem;
+  right: 100px;
+  gap: 20px;
+  color: black;
+}
+.download-svg1,
+.savingText4 p,
+.savingText5 p,
+.savingText3 p {
+  color: black;
+}
+button {
+  display: flex;
+
+  height: 34px;
+  padding: 16px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 4px;
+}
+
+.black-text {
+  background: transparent;
+  border: 1px solid black;
+}
+.white-text {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}

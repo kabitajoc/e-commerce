@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+.Limelight-cards,
+.SimilarProduct-cards {
+  display: flex;
+  justify-content: space-around;
+
+  /* position: relative; */
+}
+.Limelight-text,
+.SimilarProduct-text {
+  display: flex;
+  justify-content: space-between;
+}
+.Limelight-images img,
+.SimilarProduct-images img {
+  width: 270px;
+}
+
+.Limelight-images {
+  position: relative;
+}
+.limelight-svg {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+.price {
+  height: 40px;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: #f6f6f6;
+}
+.Limelight-text {
+  margin: 10px auto;
+}
+.title-brand p {
+  color: #807d7e;
+  font-size: 10px;
+}

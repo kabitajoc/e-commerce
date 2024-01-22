@@ -1,0 +1,48 @@
+.hero-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 5rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.herocard span {
+  display: block;
+  font-size: 34px;
+  font-weight: 800px;
+}
+.herocard h6 {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.251px;
+}
+
+.herocard {
+  position: relative;
+}
+
+.heroCard-text {
+  position: absolute;
+  bottom: 35%;
+  left: 8%;
+  line-height: 2rem;
+  z-index: 1;
+}
+
+@media (max-width: 1220px) {
+  .hero-cards {
+    width: 1000px;
+    display: flex;
+    /* flex-wrap: wrap; */
+  }
+  .herocard img{
+    width: 500px;
+    object-fit: contain;
+  }
+}

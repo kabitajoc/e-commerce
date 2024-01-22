@@ -1,3 +1,61 @@
-.hero img {
-  width: 100vw;
+
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  color: white;
+  margin-bottom: 5rem;
 }
+.hero-image {
+  width: 100vw;
+
+  object-fit: cover;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  z-index: 1;
+  position: absolute;
+
+  top: 15%;
+  left: 20%;
+}
+.hero-text button {
+  display: flex;
+  padding: 30px 72px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+
+  border-radius: 8px;
+  border: none;
+}
+.hero-section h1 {
+  font-size: 60px;
+}
+
+.hero-section p {
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 500;
+}
+.swiper-slide img {
+  width: 100%;
+}
+/* @media (max-width: 1168px) {
+  .hero-cards {
+    width: 900px;
+    display: flex;
+    gap: 5;
+   
+    justify-content: center;
+    
+    justify-items: center; 
+  }
+  .hero-cards img {
+    width: 440px;
+  }
+} */

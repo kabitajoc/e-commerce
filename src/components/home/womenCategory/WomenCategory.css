@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+}
+.women-category {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+  /* gap: 40px; */
+}
+.category-text p {
+  color: black;
+  font-size: 12px;
+}
+.category-text h4 {
+  font-size: 17px;
+}
+.explore-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.men-category {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  row-gap: 3rem;
+}

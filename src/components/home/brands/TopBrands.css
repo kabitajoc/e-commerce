@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.brand-container {
+  /* max-width:1100px; */
+  width: 100%;
+  padding: 2rem 1rem;
+
+  background-color: #3c4242;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 70px;
+  margin-bottom: 5rem;
+}
+.brand-container span {
+  color: #fbd103;
+}
+.brand-container h2 {
+  font-size: 40px;
+  color: white;
+}
+.brand-container p {
+  color: #fff;
+}
+.top-brands {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.top-brands img {
+  width: 150px;
+  background-color: #fff;
+  padding: 13px;
+  border-radius: 12px;
+}

@@ -1,0 +1,28 @@
+.newArrivals {
+  display: flex;
+  justify-content: space-around;
+
+  margin-bottom: 5rem;
+}
+
+h3 {
+  border-left: 6px solid #8a33fd;
+  border-radius: 5px;
+  margin: 3rem 2.5rem;
+  padding-left: 20px;
+}
+
+.arrivalCarousel {
+}
+@media (max-width: 1086px) {
+  .newArrivals {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+  .arrivalCarousel img {
+    height: 250px;
+    width: 210px;
+  }
+}

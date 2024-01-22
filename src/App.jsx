@@ -1,14 +1,13 @@
-import React from 'react'
-import Nav from './components/home/navbar/nav'
-import Hero from './components/home/hero/Hero'
+import React from "react";
+import "./index.css";
+import Home from "./components/home/home/Home";
 
 const App = () => {
   return (
     <div>
-      <Nav/>
-      <Hero/>
+    <Home/>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
