@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "../navbar/nav";
+import Navbar from "../navbar/Navbar";
 import Hero from "../hero/Hero";
 import HeroCards from "../hero-cards/HeroCards";
 import NewArrival from "../newArrival/NewArrival";
@@ -15,7 +15,7 @@ import CompanyQuote from "../companyQuote/CompanyQuote";
 const Home = () => {
   return (
     <div>
-      <Nav />
+      <Navbar />
       <Hero />
       <HeroCards />
       <NewArrival />

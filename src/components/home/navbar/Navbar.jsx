@@ -1,7 +1,7 @@
 import React from "react";
 import "./Nav.css";
 
-const Nav = () => {
+const Navbar = () => {
   return (
     <div className="nav-bar">
       <p className="logo">
@@ -99,4 +99,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default Navbar;
